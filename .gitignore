@@ -52,4 +52,5 @@ sample_usage4.py
 
 # editor
 .idea/
+.vscode/
 !.vscode/*
