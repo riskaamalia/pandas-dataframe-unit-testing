@@ -1,0 +1,7 @@
+# pandas and dataframe
+pandas
+python-dotenv
+
+# clean code
+black
+flake8
