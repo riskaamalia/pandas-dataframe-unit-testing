@@ -17,15 +17,6 @@ class DFFloatTests(unittest.TestCase):
     # fill column_names_checked if you want to check column
     # fill row_index_checked if you want to check row
     # default: all cells in dataframe is checked
-    def __init__(
-        self,
-        data: pandas.DataFrame,
-        column_names_checked: list,
-        row_index_checked: list,
-    ):
-        self.data = data
-        self.column_names_checked = column_names_checked
-        self.row_index_checked = row_index_checked
 
     # this is a mandatory function
     # checking parameter is a pandas Dataframe or not
@@ -57,3 +48,8 @@ class DFFloatTests(unittest.TestCase):
 
     def test_range(self):
         self.assertEqual(4, 4)
+
+
+if __name__ == '__main__':
+    data = pandas.DataFrame()
+    unittest(data=data).main()
