@@ -51,5 +51,4 @@ class DFFloatTests(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    data = pandas.DataFrame()
-    unittest(data=data).main()
+    unittest().main()
